@@ -9,7 +9,6 @@ function order(words){
             for (let i = 0; i < word.length; i++){
                 if (!isNaN(word.charAt(i))){
                     let position = Number(word.charAt(i))
-                    console.log(position)
                     result[position - 1] = word
                 }
             }
